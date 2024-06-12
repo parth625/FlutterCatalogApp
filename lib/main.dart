@@ -17,6 +17,11 @@ class CatalogApp extends StatelessWidget {
       // darkTheme: ThemeData.dark(),
       // themeMode: ThemeMode.light,
       home: const LoginScreen(),
+      // routes: {
+      //   "/": LoginScreen(),
+      //   AppRoutes.homeRoute: const HomeScreeen(),
+      //   AppRoutes.loginRoute: const LoginScreen()
+      // },
     );
   }
 }
