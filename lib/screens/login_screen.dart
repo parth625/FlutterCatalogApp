@@ -1,3 +1,5 @@
+import 'package:catalog_app/screens/home_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -35,6 +37,11 @@ class LoginScreen extends StatelessWidget {
                   ElevatedButton(
                       onPressed: () {
                         // Navigator.pushNamed(context, AppRoutes.homeRoute);
+                        Navigator.push(
+                            context,
+                            CupertinoPageRoute(
+                              builder: (context) => HomeScreen(),
+                            ));
                       },
                       style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(
