@@ -8,6 +8,7 @@ class HomeScreeen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Catalog App"),
+        backgroundColor: Colors.blue,
       ),
       body: const Center(
         child: Text("Welcome to Catalog App"),
